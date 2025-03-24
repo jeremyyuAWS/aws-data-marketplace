@@ -207,7 +207,7 @@ const App = () => {
               </button>
             </div>
             <img 
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/150px-Amazon_Web_Services_Logo.svg.png" 
+              src="/images/aws-logo.png" 
               alt="AWS Marketplace" 
               className="h-10" 
             />

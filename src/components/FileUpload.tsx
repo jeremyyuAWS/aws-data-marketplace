@@ -128,14 +128,17 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileUpload }) => {
 
       <div className="flex items-center justify-center mb-8">
         <img 
-          src="https://d1.awsstatic.com/logos/aws-logo-lockups/poweredbyaws/PB_AWS_logo_RGB_stacked.547f032d90171cdea4dd90c258f47373c5573db5.png" 
+          src="/images/aws-logo.png" 
           alt="AWS Marketplace" 
           className="h-8 mr-4" 
         />
         <span className="text-2xl font-bold text-gray-400">+</span>
         <div className="ml-4 flex items-center">
-          <span className="text-xl font-bold text-[#FF9900] mr-1">Lyzr</span>
-          <span className="text-xl font-bold text-gray-700">AI Agents</span>
+          <img 
+            src="/images/lyzr-logo.png" 
+            alt="Lyzr AI Agents" 
+            className="h-7" 
+          />
         </div>
       </div>
 
@@ -415,7 +418,7 @@ const FileUpload: React.FC<FileUploadProps> = ({ onFileUpload }) => {
           </p>
           <div className="mt-2 flex items-center">
             <img 
-              src="https://d1.awsstatic.com/logos/aws-logo-lockups/poweredbyaws/PB_AWS_logo_RGB_stacked.547f032d90171cdea4dd90c258f47373c5573db5.png" 
+              src="/images/aws-logo.png" 
               alt="AWS" 
               className="h-5 mr-2" 
             />

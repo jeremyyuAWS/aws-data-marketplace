@@ -584,7 +584,7 @@ const Reports: React.FC = () => {
               </div>
             </div>
             <img 
-              src="https://d1.awsstatic.com/Developer%20Marketing/eventbridge/product-icon_AWS-Marketplace_64_squid.25918865fc9dd1b2c27f9935ad906371c1fe8dc1.png" 
+              src="/images/aws-reports-icon.png" 
               alt="AWS Reports" 
               className="w-24 h-24 object-contain"
             />

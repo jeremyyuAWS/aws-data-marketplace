@@ -39,16 +39,17 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, activeView }) => {
               <div className="flex items-center px-3 py-1.5 rounded-lg bg-gradient-to-r from-[#232F3E] to-[#00A1C9]">
                 <div className="flex items-center mr-2 bg-white rounded-md px-1.5 py-0.5">
                   <img 
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/150px-Amazon_Web_Services_Logo.svg.png" 
+                    src="/images/aws-logo.png" 
                     alt="AWS" 
                     className="h-4" 
                   />
                 </div>
                 <span className="text-lg font-bold text-white flex items-center">
-                  <div className="bg-black rounded-md h-5 w-5 mr-1.5 flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">&lt;/&gt;</span>
-                  </div>
-                  <span className="mr-1">lyzr</span>
+                  <img 
+                    src="/images/lyzr-logo.png" 
+                    alt="Lyzr" 
+                    className="h-5 mr-1.5" 
+                  />
                   <span>Data Platform</span>
                 </span>
               </div>
@@ -296,7 +297,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, activeView }) => {
                       <div className="mt-6 pt-4 border-t border-gray-100">
                         <a href="#" className="flex justify-between items-center px-4 py-3 bg-[#FF9900]/10 rounded-lg hover:bg-[#FF9900]/20 transition-colors">
                           <div className="flex items-center">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/150px-Amazon_Web_Services_Logo.svg.png" alt="AWS Marketplace" className="h-8 mr-3" />
+                            <img src="/images/aws-logo.png" alt="AWS Marketplace" className="h-8 mr-3" />
                             <div>
                               <h3 className="text-sm font-medium text-gray-800">Browse AWS Data Marketplace</h3>
                               <p className="text-xs text-gray-600 mt-0.5">Explore 100,000+ datasets from 3,000+ providers</p>
