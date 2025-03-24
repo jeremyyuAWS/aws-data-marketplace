@@ -47,10 +47,10 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, activeView }) => {
                 <span className="text-lg font-bold text-white flex items-center">
                   <img 
                     src="/images/lyzr-logo.png" 
-                    alt="Lyzr" 
+                    alt="Lyzr DataXchange" 
                     className="h-5 mr-1.5" 
                   />
-                  <span>Data Platform</span>
+                  <span>Lyzr DataXchange</span>
                 </span>
               </div>
             </div>
