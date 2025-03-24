@@ -36,22 +36,20 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, activeView }) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <div className="flex items-center">
-              <div className="flex items-center px-3 py-1.5 rounded-lg bg-gradient-to-r from-[#232F3E] to-[#00A1C9]">
-                <div className="flex items-center mr-2 bg-white rounded-md px-1.5 py-0.5">
+              <div className="flex items-center px-4 py-2 rounded-lg bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-center space-x-3">
                   <img 
                     src="/images/aws-logo.png" 
                     alt="AWS" 
-                    className="h-4" 
+                    className="h-6" 
                   />
-                </div>
-                <span className="text-lg font-bold text-white flex items-center">
+                  <div className="h-6 w-px bg-gray-200"></div>
                   <img 
                     src="/images/lyzr-logo.png" 
-                    alt="Lyzr DataXchange" 
-                    className="h-5 mr-1.5" 
+                    alt="Lyzr" 
+                    className="h-6" 
                   />
-                  <span>Lyzr DataXchange</span>
-                </span>
+                </div>
               </div>
             </div>
             
