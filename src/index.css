@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes progress {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+@keyframes progress-delayed {
+  0% { width: 0%; }
+  20% { width: 0%; }
+  100% { width: 100%; }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in-delayed {
+  0% { opacity: 0; transform: translateY(10px); }
+  30% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes expand {
+  from { width: 0%; }
+  to { width: attr(data-width); }
+}
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slide-out-right {
+  from { transform: translateX(0); opacity: 1; }
+  to { transform: translateX(100%); opacity: 0; }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s infinite;
+}
+
+.animate-progress {
+  animation: progress 2.5s ease-in-out;
+}
+
+.animate-progress-delayed {
+  animation: progress-delayed 2.5s ease-in-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-fade-in-delayed {
+  animation: fade-in-delayed 1s ease-out forwards;
+}
+
+.animate-expand {
+  animation: expand 1.5s forwards;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out forwards;
+}
+
+.animate-slide-out-right {
+  animation: slide-out-right 0.3s ease-out forwards;
+}
+
+.scale-102 {
+  transform: scale(1.02);
+}
+
+.animate-expand[data-width="10%"] { animation-name: expandTo10; }
+.animate-expand[data-width="15%"] { animation-name: expandTo15; }
+.animate-expand[data-width="20%"] { animation-name: expandTo20; }
+.animate-expand[data-width="25%"] { animation-name: expandTo25; }
+.animate-expand[data-width="30%"] { animation-name: expandTo30; }
+.animate-expand[data-width="35%"] { animation-name: expandTo35; }
+.animate-expand[data-width="40%"] { animation-name: expandTo40; }
+.animate-expand[data-width="45%"] { animation-name: expandTo45; }
+.animate-expand[data-width="50%"] { animation-name: expandTo50; }
+.animate-expand[data-width="55%"] { animation-name: expandTo55; }
+.animate-expand[data-width="60%"] { animation-name: expandTo60; }
+.animate-expand[data-width="65%"] { animation-name: expandTo65; }
+.animate-expand[data-width="70%"] { animation-name: expandTo70; }
+.animate-expand[data-width="75%"] { animation-name: expandTo75; }
+.animate-expand[data-width="80%"] { animation-name: expandTo80; }
+.animate-expand[data-width="85%"] { animation-name: expandTo85; }
+.animate-expand[data-width="90%"] { animation-name: expandTo90; }
+.animate-expand[data-width="95%"] { animation-name: expandTo95; }
+.animate-expand[data-width="100%"] { animation-name: expandTo100; }
+
+@keyframes expandTo10 { from { width: 0%; } to { width: 10%; } }
+@keyframes expandTo15 { from { width: 0%; } to { width: 15%; } }
+@keyframes expandTo20 { from { width: 0%; } to { width: 20%; } }
+@keyframes expandTo25 { from { width: 0%; } to { width: 25%; } }
+@keyframes expandTo30 { from { width: 0%; } to { width: 30%; } }
+@keyframes expandTo35 { from { width: 0%; } to { width: 35%; } }
+@keyframes expandTo40 { from { width: 0%; } to { width: 40%; } }
+@keyframes expandTo45 { from { width: 0%; } to { width: 45%; } }
+@keyframes expandTo50 { from { width: 0%; } to { width: 50%; } }
+@keyframes expandTo55 { from { width: 0%; } to { width: 55%; } }
+@keyframes expandTo60 { from { width: 0%; } to { width: 60%; } }
+@keyframes expandTo65 { from { width: 0%; } to { width: 65%; } }
+@keyframes expandTo70 { from { width: 0%; } to { width: 70%; } }
+@keyframes expandTo75 { from { width: 0%; } to { width: 75%; } }
+@keyframes expandTo80 { from { width: 0%; } to { width: 80%; } }
+@keyframes expandTo85 { from { width: 0%; } to { width: 85%; } }
+@keyframes expandTo90 { from { width: 0%; } to { width: 90%; } }
+@keyframes expandTo95 { from { width: 0%; } to { width: 95%; } }
+@keyframes expandTo100 { from { width: 0%; } to { width: 100%; } }
